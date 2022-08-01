@@ -1,18 +1,20 @@
-number = 23
-running = True
+# пример из книги byte of python:
 
-while running:
-    guess = int(input('Введите целое число: '))
+# number = 23
+# running = True
 
-    if guess == number:
-        print('Поздравляю, вы угадали.')
-        running = False  # это останавливает цикл while
-    elif guess < number:
-        print('Нет, загаданное число немного больше этого.')
-    else:
-        print('Нет, загаданное число немного меньше этого.')
-else:
-    print('Цикл while закончен.')
-    # здесь можно выполнить все что еще нужно
+# while running:
+#     guess = int(input('Введите целое число: '))
 
-print('Завершение.')
+#     if guess == number:
+#         print('Поздравляю, вы угадали.')
+#         running = False  # это останавливает цикл while
+#     elif guess < number:
+#         print('Нет, загаданное число немного больше этого.')
+#     else:
+#         print('Нет, загаданное число немного меньше этого.')
+# else:
+#     print('Цикл while закончен.')
+#     # здесь можно выполнить все что еще нужно
+
+# print('Завершение.')

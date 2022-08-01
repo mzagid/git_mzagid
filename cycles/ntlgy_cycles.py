@@ -110,38 +110,3 @@
 #   if letter == ' ':
 #     pass
 #   print(letter, end='')
-
-# практика
-# вывести фамилии построчно с указанием профессии
-
-professions = ['IT', 'Физика', 'Математика']
-persons = [['Гейтс', 'Джобс', 'Возняк'], ['Эйнштейн', 'Фейнман'], ['Эвклид', 'Ньютон']]
-
-for pro, person in zip(professions, persons):
-  # print(pro, persons)
-  print(f'{pro}:')
-  for name in person:
-    print(name)
-  print()
-
-# игра "угадай число"
-
-import random
-
-number = random.randint(0, 101)
-# print(number)
-max_tries = 3
-tries = 0
-
-while tries < max_tries:
-  guess = int(input('Назови свой вариант'))
-  if guess < number:
-    print('Загаданное число больше')
-  elif guess > number:
-    print('Загаданное число меньше')
-  else:
-    print('Ты угадал!')
-    break
-  tries += 1
-else:
-  print('Вы проиграли')
