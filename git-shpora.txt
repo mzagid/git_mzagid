@@ -1,0 +1,27 @@
+git init #позволяет проинициализировать репозиторий в текущей папке
+git status #показывает текущий статус
+git add #отслеживает изменения файлов
+git add index.html #добавляет index.html
+git add . #добавляет все файлы
+git commit #cохраняет изменения в коммит
+git commit -m 'commit message' #создает коммит с сообщением
+git branch #работа с ветками в репозитории
+git branch #показывает список веток
+git branch branch-name #создает новую ветку branch-name
+git branch -D branch-name #удаляет ветку branch-name
+git checkout #переключается на другую ветку
+git checkout branch-name #переключается на последний коммит в ветке
+branch-name
+git checkout -b branch-name #создает и переключается на ветку branch-name
+git merge #cовмещает текущую ветку с выбранной
+git merge branch-name #совмещает текущую ветку с branch-name
+git config #конфигурация и параметры git
+git config --global user.name #показывает имя пользователя
+git config --global user.name 'new user' —#изменяет имя пользователя
+git config --global user.email #показывает email пользователя
+git config --global user.email 'test@mail.ru' #изменяет email пользователя
+git push #заливает текущие локальные коммиты в удаленный репозиторий
+git pull #забирает изменения с удаленного репозитория в локальный
+git clone #клонирует проект с удаленного репозитория
+git commit --amend #замена предыдущего коммита
+git checkout file-name #отмена изменений в файлах
